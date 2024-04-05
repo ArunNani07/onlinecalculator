@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        table{
+            background-color:rgb(54, 80, 49);
+            margin-top: 100px;
+            margin-left: 400px;
+            height: 400px;
+            width: 500px;
+        }
+        #screen{
+            color: black;
+            background-color: aqua;
+            border: none;
+            height: 25px;
+            width: 350px;
+            padding: 10px;
+            border-radius: 5px;
+            margin-left: 45px;
+        }
+        #ac1{
+            background-color: red;
+
+        }
+        #ce1{
+            background-color: darkcyan;
+        }
+        #eq1{
+            background-color: chartreuse;
+        }
+        button{
+            border-radius: 10px;
+            height: 30px;
+            width: 50px;
+            margin-left: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <table  border="1px"; cellpadding="10px"; cellspacing="2px">
+        <tr>
+            <td id="a" colspan="4">
+                <input id="screen" placeholder="0">
+            </td>
+        </tr>
+        <tr>
+            <td id="ac"><button id="ac1">AC</button></td>
+            <td id="ce"><button id="ce1">CE</button></td>
+            <td class="btn"><button>%</button></td>
+            <td class="btn"><button>/</button></td>
+        </tr>
+        <tr>
+            <td class="btn"><button>1</button></td>
+            <td class="btn"><button>2</button></td>
+            <td class="btn"><button>3</button></td>
+            <td class="btn"><button>+</button></td>
+        </tr>
+        <tr>
+            <td class="btn"><button>4</button></td>
+            <td class="btn"><button>5</button></td>
+            <td class="btn"><button>6</button></td>
+            <td class="btn"><button>-</button></td>
+        </tr>
+        <tr>
+            <td class="btn"><button>7</button></td>
+            <td class="btn"><button>8</button></td>
+            <td class="btn"><button>9</button></td>
+            <td class="btn"><button>*</button></td>
+        </tr>
+        <tr>
+            <td class="btn"><button>0</button></td>
+            <td class="btn"><button>00</button></td>
+            <td class="btn"><button>.</button></td>
+            <td id="equal"><button id="eq1">=</button></td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
